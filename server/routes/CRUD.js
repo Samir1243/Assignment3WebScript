@@ -7,8 +7,8 @@ let eventModel = require('../model/event');
 router.get('/',async(req,res,next)=>{
     try{
         const EventList = await eventModel.find(); 
-        res.render('Events/list',{
-            title:'Event Planner',
+        res.render('Workouts/list',{
+            title:'NextLevel',
             EventList: EventList
         })
     }

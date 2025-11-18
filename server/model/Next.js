@@ -8,8 +8,8 @@ let eventModel = mongoose.Schema({
     location: String
 },
 {
-    collection:"Events888888888"
+    collection:"Events"
 }
 );
 
-module.exports = mongoose.model('Event',eventModel);
+module.exports = mongoose.model('NextLevel',eventModel);
