@@ -28,6 +28,7 @@
     "@types/passport": "^1.0.17",
     "@types/passport-local": "^1.0.38",
     "@types/passport-local-mongoose": "^6.1.5",
+    "admin-lte": "^4.0.0-rc4",
     "bootstrap": "^5.3.8",
     "connect-flash": "^0.1.1",
     "cookie-parser": "~1.4.4",
