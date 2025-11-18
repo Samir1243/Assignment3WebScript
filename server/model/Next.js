@@ -8,7 +8,7 @@ let eventModel = mongoose.Schema({
     location: String
 },
 {
-    collection:"Events"
+    collection:"Events888888888"
 }
 );
 
