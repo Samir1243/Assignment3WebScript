@@ -12,4 +12,4 @@ let eventModel = mongoose.Schema({
 }
 );
 
-module.exports = mongoose.model('NextLevel',eventModel);
+module.exports = mongoose.model('Event',eventModel);
