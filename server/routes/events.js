@@ -8,14 +8,14 @@ router.get('/',async(req,res,next)=>{
     try{
         const EventList = await eventModel.find(); 
         res.render('Events/list',{
-            title:'Event Planner',
+            title:'Workouts',
             EventList: EventList
         })
     }
     catch(err)
     {
         console.log(err);
-        res.render('Events/list',
+        res.render('Workouts list',
             {
                 title: 'Error',
                 error: 'Error on the Server',
